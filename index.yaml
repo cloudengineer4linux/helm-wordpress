@@ -1,10 +1,13 @@
 apiVersion: v1
 entries:
   helm-wordpress:
-    - created: 2023-07-24T21:00:43.565579575-06:00
-      description: Create a basic nginx HTTP server
-      name: https://github.com/cloudengineer4linux/helm-wordpress
-      sources:
-        - helm-wordpress
-          version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-07-24T21:00:43.565579575Z"
+    description: Chart para provisionar o Wordpress no cluster Kubernetes
+    name: helm-wordpress
+    type : application
+    urls:
+    - https://github.com/cloudengineer4linux/helm-wordpress
+    version: 1.0.0
 generated: "2023-07-24T21:00:43.565579575Z"

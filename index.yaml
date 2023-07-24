@@ -7,6 +7,6 @@ entries:
     digest: 2f526186793a0ed64c632d62fe2c13c14ce6cb33286d49213c7e2cb1dd9a0428
     name: wordpress
     urls:
-    - https://github.com/cloudengineer4linux/helm-wordpress/blob/main/wordpress-0.1.tgz
+    - https://github.com/cloudengineer4linux/helm-wordpress/raw/main/wordpress-0.1.tgz
     version: "0.1"
 generated: "2023-07-24T21:35:19.803586833Z"
